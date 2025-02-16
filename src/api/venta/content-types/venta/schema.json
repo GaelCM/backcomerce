@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ventas",
+  "info": {
+    "singularName": "venta",
+    "pluralName": "ventas",
+    "displayName": "Venta"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idVenta": {
+      "type": "string"
+    },
+    "products": {
+      "type": "json"
+    }
+  }
+}
